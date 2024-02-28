@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(248, 247, 247);
+    color: white;
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    
+   display: none;
+   
+}
+.card{
+    /* display: none; */
+    height: max-content;
+   
+  
+   text-align: center;
+    background: linear-gradient(135deg,#107a5d,#5b548a);
+    color:#fff;
+    margin: auto;
+   width: 40%;
+   border-radius: 10px;
+   border:  3px solid green;
+}
+.firstline{
+    
+    border-radius: 10px;
+    margin: 40px 40px;
+  
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.temp{
+    font-size: larger;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+#city{
+    /* height: 50px;
+    border: 3px rgb(123, 232, 86) solid;
+    border-radius: 100px;
+    background-color: rgba(164, 21, 175, 0.632);
+     margin-right: 20px; */
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    color:#555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    /* flex: 1; */
+    margin-right: 16px;
+    font-size:18px;
+}
+.buton{
+    border-radius: 50%;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background: #ebfffc;
+    border: 0px;
+}
+.search{
+    width: 16px;
+}
+.humadity,.windspeed{
+    
+    align-items: center;
+    text-align: left;
+    display: flex;
+    font-size:20px;
+    margin-top: -6px;
+}
+.huma, .wind{
+    padding-left: 20px;
+}

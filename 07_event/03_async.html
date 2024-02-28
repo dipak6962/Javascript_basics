@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #212121;
+        color: aliceblue;
+    }
+</style>
+<body>
+    <h2 class="heading">Chai aur code</h2>
+
+    <button id="start" class="button">start</button>
+    <button id="stop" class="button">Stop</button>
+</body>
+<script>
+      let  htimeOut;
+   
+    document.querySelector('#start').addEventListener('click',()=>{
+          htimeOut=setInterval(() => {
+        document.querySelector('.heading').innerHTML='best js course'
+        console.log('setTimeout called')
+    }, 3000);
+    })
+
+
+    const stopbutton=document.querySelector('#stop')
+    stopbutton.addEventListener('click',()=>{
+        clearInterval(htimeOut)
+        console.log('clearTimeout called')
+    })
+    
+</script>
+</html>
