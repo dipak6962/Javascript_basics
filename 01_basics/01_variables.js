@@ -9,7 +9,7 @@ accountCity="jaipur"//if we not give let or var then also assign memory
  let accountType;//if we declare and keep as it is then it will show undefined
 
 
-console.log(accountEmail);
+// console.log(accountEmail);
 // accountId=1;
 console.log(accountId);
 console.table([accountId , accountEmail , accountPass,accountType]);
